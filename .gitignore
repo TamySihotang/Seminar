@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # yii console command
 /yii
 
@@ -28,3 +29,11 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
+=======
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+>>>>>>> 969a65193d320ea66149cba56927f34c29b6f0d4
