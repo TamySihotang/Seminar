@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 Yii 2 Advanced Application Template
 ===================================
 
@@ -95,3 +99,10 @@ the installed application. You only need to do these once for all.
 
 To login into the application, you need to first sign up, with any of your email address, username and password.
 Then, you can login into the application with same email address and password at any time.
+<<<<<<< HEAD
+=======
+=======
+# Seminar
+Seminar
+>>>>>>> 969a65193d320ea66149cba56927f34c29b6f0d4
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500

@@ -18,6 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-lg-5">
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
                 <?= $form->field($model, 'username') ?>
+<<<<<<< HEAD
                 <?= $form->field($model, 'password')->passwordInput() ?>
                 <?= $form->field($model, 'email') ?>
                 <?= $form->field($model, 'first_name') ?>
@@ -27,6 +28,11 @@ $this->params['breadcrumbs'][] = $this->title;
                 <?= $form->field($model, 'phone') ?>
                 <?= $form->field($model, 'image') ?>
             <div class="form-group">
+=======
+                <?= $form->field($model, 'email') ?>
+                <?= $form->field($model, 'password')->passwordInput() ?>
+                <div class="form-group">
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
                     <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
                 </div>
             <?php ActiveForm::end(); ?>

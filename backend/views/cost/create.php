@@ -4,7 +4,11 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
+<<<<<<< HEAD
 /* @var $model common\models\Cost */
+=======
+/* @var $model common\models\Cost\Cost */
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 
 $this->title = 'Create Cost';
 $this->params['breadcrumbs'][] = ['label' => 'Costs', 'url' => ['index']];

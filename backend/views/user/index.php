@@ -4,7 +4,11 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
+<<<<<<< HEAD
 /* @var $searchModel common\models\UserSearch */
+=======
+/* @var $searchModel common\models\User\UserSearch */
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Users';
@@ -34,12 +38,15 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'status',
             // 'created_at',
             // 'updated_at',
+<<<<<<< HEAD
             // 'first_name',
             // 'last_name',
             // 'gender',
             // 'birth',
             // 'phone',
             // 'image',
+=======
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

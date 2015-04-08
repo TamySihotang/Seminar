@@ -4,7 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
+<<<<<<< HEAD
 /* @var $model common\models\NewsSearch */
+=======
+/* @var $model common\models\News\NewsSearch */
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -15,9 +19,15 @@ use yii\widgets\ActiveForm;
         'method' => 'get',
     ]); ?>
 
+<<<<<<< HEAD
     <?= $form->field($model, 'id_news') ?>
 
     <?= $form->field($model, 'user_id') ?>
+=======
+    <?= $form->field($model, 'id') ?>
+
+    <?= $form->field($model, 'member_id') ?>
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 
     <?= $form->field($model, 'date') ?>
 

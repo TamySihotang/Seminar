@@ -3,11 +3,19 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
+<<<<<<< HEAD
 /* @var $model common\models\News */
 
 $this->title = 'Update News: ' . ' ' . $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'News', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->title, 'url' => ['view', 'id' => $model->id_news]];
+=======
+/* @var $model common\models\News\News */
+
+$this->title = 'Update News: ' . ' ' . $model->title;
+$this->params['breadcrumbs'][] = ['label' => 'News', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $model->title, 'url' => ['view', 'id' => $model->id]];
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 $this->params['breadcrumbs'][] = 'Update';
 ?>
 <div class="news-update">

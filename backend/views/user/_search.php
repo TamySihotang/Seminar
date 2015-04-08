@@ -4,7 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
+<<<<<<< HEAD
 /* @var $model common\models\UserSearch */
+=======
+/* @var $model common\models\User\UserSearch */
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -33,6 +37,7 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'updated_at') ?>
 
+<<<<<<< HEAD
     <?php // echo $form->field($model, 'first_name') ?>
 
     <?php // echo $form->field($model, 'last_name') ?>
@@ -45,6 +50,8 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'image') ?>
 
+=======
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
         <?= Html::resetButton('Reset', ['class' => 'btn btn-default']) ?>

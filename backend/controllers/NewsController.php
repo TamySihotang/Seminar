@@ -3,8 +3,13 @@
 namespace backend\controllers;
 
 use Yii;
+<<<<<<< HEAD
 use common\models\News;
 use common\models\NewsSearch;
+=======
+use common\models\News\News;
+use common\models\News\NewsSearch;
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -63,7 +68,11 @@ class NewsController extends Controller
         $model = new News();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+<<<<<<< HEAD
             return $this->redirect(['view', 'id' => $model->id_news]);
+=======
+            return $this->redirect(['view', 'id' => $model->id]);
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -82,7 +91,11 @@ class NewsController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+<<<<<<< HEAD
             return $this->redirect(['view', 'id' => $model->id_news]);
+=======
+            return $this->redirect(['view', 'id' => $model->id]);
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
         } else {
             return $this->render('update', [
                 'model' => $model,

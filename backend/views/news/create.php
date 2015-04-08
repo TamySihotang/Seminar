@@ -4,7 +4,11 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
+<<<<<<< HEAD
 /* @var $model common\models\News */
+=======
+/* @var $model common\models\News\News */
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 
 $this->title = 'Create News';
 $this->params['breadcrumbs'][] = ['label' => 'News', 'url' => ['index']];

@@ -4,7 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
+<<<<<<< HEAD
 /* @var $model common\models\ContactSearch */
+=======
+/* @var $model common\models\Contact\ContactSearch */
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -15,7 +19,11 @@ use yii\widgets\ActiveForm;
         'method' => 'get',
     ]); ?>
 
+<<<<<<< HEAD
     <?= $form->field($model, 'id_contact') ?>
+=======
+    <?= $form->field($model, 'id') ?>
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 
     <?= $form->field($model, 'title') ?>
 

@@ -4,7 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
+<<<<<<< HEAD
 /* @var $model common\models\Cost */
+=======
+/* @var $model common\models\Cost\Cost */
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

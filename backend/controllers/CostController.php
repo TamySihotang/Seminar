@@ -3,8 +3,13 @@
 namespace backend\controllers;
 
 use Yii;
+<<<<<<< HEAD
 use common\models\Cost;
 use common\models\CostSearch;
+=======
+use common\models\Cost\Cost;
+use common\models\Cost\CostSearch;
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -63,7 +68,11 @@ class CostController extends Controller
         $model = new Cost();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+<<<<<<< HEAD
             return $this->redirect(['view', 'id' => $model->id_cost]);
+=======
+            return $this->redirect(['view', 'id' => $model->id]);
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -82,7 +91,11 @@ class CostController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+<<<<<<< HEAD
             return $this->redirect(['view', 'id' => $model->id_cost]);
+=======
+            return $this->redirect(['view', 'id' => $model->id]);
+>>>>>>> 76c58ee72437bc4331656780392cdf747a010500
         } else {
             return $this->render('update', [
                 'model' => $model,
